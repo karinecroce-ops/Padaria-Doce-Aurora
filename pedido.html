@@ -16,3 +16,31 @@
         <a href="sobre.html">Sobre nós</a>
     </nav>
     </header>
+
+   <main>
+        <h2>Faça seu Pedido</h2>
+        <form action="#" method="post">
+            <label for="nome">Insira seu nome </label>
+            <input  type="text" name="nome" id="nome" required>
+            <br>
+            <label for="numeromesa">Numero da mesa</label>
+            <input type="number" name="numeromesa" id="numeromesa">
+            <br>
+            <label for="pratos">Seu Pedido:</label>
+            <select name="pratos" id="pratos" required>
+                <option value="">Selecione uma opção</option>
+                <option value="paes">Pães</option>
+                <option value="bolos">Bolos</option>
+                <option value="doces">Doces</option>
+                <option value="salgados">Salgados</option>
+                <option value="bebidas">Bebidas</option>
+            </select>
+                <br>
+                <br>
+                <label for="especificacao"> Especifique seu prato:</label>
+                <textarea name="especificacao" id="especificacao" rows="4"></textarea>
+                <br>
+                <button type="submit">Confirmar Pedido</button>
+                
+        </form>
+    </main>
